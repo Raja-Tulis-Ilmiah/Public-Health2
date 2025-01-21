@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Kesehatan Masyarakat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Blog Kesehatan Masyarakat</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#articles">Artikel</a></li>
+                <li><a href="#upload">Unggah Jurnal</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Selamat Datang di Blog Kesehatan Masyarakat</h2>
+        <p>Blog ini menyediakan artikel dan informasi terbaru tentang ilmu kesehatan masyarakat.</p>
+    </section>
+
+    <section id="articles">
+        <h2>Artikel Terbaru</h2>
+        <!-- Anda bisa menambahkan artikel di sini -->
+    </section>
+
+    <section id="upload">
+        <h2>Unggah Jurnal Kesehatan</h2>
+        <form action="upload.php" method="POST" enctype="multipart/form-data">
+            <input type="file" name="journal" id="journalFile" required>
+            <button type="submit">Unggah</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Blog Kesehatan Masyarakat. Semua hak cipta dilindungi.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
